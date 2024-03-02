@@ -1,0 +1,71 @@
+﻿@page "/trainerview"
+@using global::TrainerView.Model
+@using global::TrainerView.Services
+@inject IHttpClientFactory factory
+@inject IConfiguration configuration
+
+<PageTitle>Trainers</PageTitle>
+@if (cachedTrainers == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <div class="find-trainer">
+        <h2>Find trainder</h2>
+    </div>
+
+    <div class="overflow-scroll custom-table-size">
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">Trainer Id</th>
+                    <th scope="col"> Trainer Course</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var trainer in currentTrainers)
+                {
+                    <tr>
+                        <td scope="row">@trainer.Id </td>
+                        <td>
+
+                            <ul>
+                                <li>
+                                    Course Id: @trainer.Course.Id
+                                </li>
+                                <li>
+                                    Name: @trainer.Course.Name
+                                </li>
+                                <li>
+                                    Reference : @trainer.Course.Reference
+                                </li>
+                            </ul>
+
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+  
+}
+
+@code {
+    private List<Trainer> cachedTrainers;
+    private ApiClientService _service;
+    private List<Trainer> currentTrainers;
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        _service = new ApiClientService(factory,configuration);
+        cachedTrainers = await _service.GetTrainersAsync();
+
+        if(currentTrainers == null)
+        {
+            currentTrainers = cachedTrainers;
+        }
+    }
+
+}
