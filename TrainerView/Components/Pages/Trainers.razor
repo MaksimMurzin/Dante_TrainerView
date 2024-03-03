@@ -1,18 +1,17 @@
 ﻿@page "/trainers"
-@using global::TrainerView.Model
-@using global::TrainerView.Services
-@inject IHttpClientFactory factory
-@inject IConfiguration configuration
+
+@inject IApiClientService apiClientServie
+
 
 <PageTitle>Trainers</PageTitle>
-@if (cachedTrainers == null)
+@if (trainers == null)
 {
     <p><em>Loading...</em></p>
 }
 else
 {
     <div class="find-trainer">
-        <h2>Find trainder</h2>
+        <h2>Find trainer</h2>
     </div>
 
     <div class="overflow-scroll custom-table-size">
@@ -52,19 +51,19 @@ else
 }
 
 @code {
-    private List<Trainer> cachedTrainers;
-    private ApiClientService _service;
+    private List<Trainer> trainers;
+    private ClientApiPollingService _service;
     private List<Trainer> currentTrainers;
 
 
     protected override async Task OnInitializedAsync()
     {
-        _service = new ApiClientService(factory,configuration);
-        cachedTrainers = await _service.GetTrainersAsync();
+        _service = new ClientApiPollingService( apiClientServie);
+        trainers = await _service.GetTrainers();
 
         if(currentTrainers == null)
         {
-            currentTrainers = cachedTrainers;
+            currentTrainers = trainers;
         }
     }
 
