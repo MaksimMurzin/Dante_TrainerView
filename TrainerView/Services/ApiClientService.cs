@@ -4,7 +4,7 @@ using TrainerView.Model;
 
 namespace TrainerView.Services
 {
-    public class ApiClientService
+    public class ApiClientService : IApiClientService
     {
         private readonly HttpClient _client;
         private readonly IConfiguration _configuration;
@@ -20,11 +20,10 @@ namespace TrainerView.Services
             var baseUri = _configuration.GetSection("BaseUri").Value;
             var apiKey = _configuration.GetSection("ApiKey").Value;
 
-
             return await _client.GetFromJsonAsync<List<Trainer>>(BuildUri(baseUri, apiKey));
         }
 
-        private Uri BuildUri(string baseUri, string apiKey) 
+        private Uri BuildUri(string baseUri, string apiKey)
             => new Uri(baseUri.Replace("{ApiKey}", apiKey));
 
     }
