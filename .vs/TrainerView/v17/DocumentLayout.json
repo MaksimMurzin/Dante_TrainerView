@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Makos Laptop\\Desktop\\Dante\\TrainerView\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{202C598C-C3D7-407A-A798-DA92B8CA7625}|TrainerView\\TrainerView.csproj|c:\\users\\makos laptop\\desktop\\dante\\trainerview\\trainerview\\components\\pages\\trainers.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{202C598C-C3D7-407A-A798-DA92B8CA7625}|TrainerView\\TrainerView.csproj|solutionrelative:trainerview\\components\\pages\\trainers.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{202C598C-C3D7-407A-A798-DA92B8CA7625}|TrainerView\\TrainerView.csproj|c:\\users\\makos laptop\\desktop\\dante\\trainerview\\trainerview\\components\\pages\\trainerdetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{202C598C-C3D7-407A-A798-DA92B8CA7625}|TrainerView\\TrainerView.csproj|solutionrelative:trainerview\\components\\pages\\trainerdetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{202C598C-C3D7-407A-A798-DA92B8CA7625}|TrainerView\\TrainerView.csproj|c:\\users\\makos laptop\\desktop\\dante\\trainerview\\trainerview\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{202C598C-C3D7-407A-A798-DA92B8CA7625}|TrainerView\\TrainerView.csproj|solutionrelative:trainerview\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{202C598C-C3D7-407A-A798-DA92B8CA7625}|TrainerView\\TrainerView.csproj|c:\\users\\makos laptop\\desktop\\dante\\trainerview\\trainerview\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{202C598C-C3D7-407A-A798-DA92B8CA7625}|TrainerView\\TrainerView.csproj|solutionrelative:trainerview\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{202C598C-C3D7-407A-A798-DA92B8CA7625}|TrainerView\\TrainerView.csproj|c:\\users\\makos laptop\\desktop\\dante\\trainerview\\trainerview\\services\\apiclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{202C598C-C3D7-407A-A798-DA92B8CA7625}|TrainerView\\TrainerView.csproj|solutionrelative:trainerview\\services\\apiclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{202C598C-C3D7-407A-A798-DA92B8CA7625}|TrainerView\\TrainerView.csproj|c:\\users\\makos laptop\\desktop\\dante\\trainerview\\trainerview\\trainerview.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{202C598C-C3D7-407A-A798-DA92B8CA7625}|TrainerView\\TrainerView.csproj|solutionrelative:trainerview\\trainerview.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{202C598C-C3D7-407A-A798-DA92B8CA7625}|TrainerView\\TrainerView.csproj|c:\\users\\makos laptop\\desktop\\dante\\trainerview\\trainerview\\components\\pages\\trainerview.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{202C598C-C3D7-407A-A798-DA92B8CA7625}|TrainerView\\TrainerView.csproj|solutionrelative:trainerview\\components\\pages\\trainerview.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{202C598C-C3D7-407A-A798-DA92B8CA7625}|TrainerView\\TrainerView.csproj|c:\\users\\makos laptop\\desktop\\dante\\trainerview\\trainerview\\components\\pages\\trainerview.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{202C598C-C3D7-407A-A798-DA92B8CA7625}|TrainerView\\TrainerView.csproj|solutionrelative:trainerview\\components\\pages\\trainerview.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{202C598C-C3D7-407A-A798-DA92B8CA7625}|TrainerView\\TrainerView.csproj|c:\\users\\makos laptop\\desktop\\dante\\trainerview\\trainerview\\model\\trainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{202C598C-C3D7-407A-A798-DA92B8CA7625}|TrainerView\\TrainerView.csproj|solutionrelative:trainerview\\model\\trainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,6 +31,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Trainers.razor",
+              "DocumentMoniker": "C:\\Users\\Makos Laptop\\Desktop\\Dante\\TrainerView\\TrainerView\\Components\\Pages\\Trainers.razor",
+              "RelativeDocumentMoniker": "TrainerView\\Components\\Pages\\Trainers.razor",
+              "ToolTip": "C:\\Users\\Makos Laptop\\Desktop\\Dante\\TrainerView\\TrainerView\\Components\\Pages\\Trainers.razor",
+              "RelativeToolTip": "TrainerView\\Components\\Pages\\Trainers.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-03T19:09:49.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TrainerDetails.razor",
+              "DocumentMoniker": "C:\\Users\\Makos Laptop\\Desktop\\Dante\\TrainerView\\TrainerView\\Components\\Pages\\TrainerDetails.razor",
+              "RelativeDocumentMoniker": "TrainerView\\Components\\Pages\\TrainerDetails.razor",
+              "ToolTip": "C:\\Users\\Makos Laptop\\Desktop\\Dante\\TrainerView\\TrainerView\\Components\\Pages\\TrainerDetails.razor",
+              "RelativeToolTip": "TrainerView\\Components\\Pages\\TrainerDetails.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-03T19:06:50.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\Makos Laptop\\Desktop\\Dante\\TrainerView\\TrainerView\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "TrainerView\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\Makos Laptop\\Desktop\\Dante\\TrainerView\\TrainerView\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "TrainerView\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-03T19:04:17.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Makos Laptop\\Desktop\\Dante\\TrainerView\\TrainerView\\appsettings.json",
               "RelativeDocumentMoniker": "TrainerView\\appsettings.json",
@@ -47,71 +78,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-03-02T22:31:37.355Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TrainerView",
-              "DocumentMoniker": "C:\\Users\\Makos Laptop\\Desktop\\Dante\\TrainerView\\TrainerView\\TrainerView.csproj",
-              "RelativeDocumentMoniker": "TrainerView\\TrainerView.csproj",
-              "ToolTip": "C:\\Users\\Makos Laptop\\Desktop\\Dante\\TrainerView\\TrainerView\\TrainerView.csproj",
-              "RelativeToolTip": "TrainerView\\TrainerView.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-02T22:31:26.263Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TrainerView.razor.css",
-              "DocumentMoniker": "C:\\Users\\Makos Laptop\\Desktop\\Dante\\TrainerView\\TrainerView\\Components\\Pages\\TrainerView.razor.css",
-              "RelativeDocumentMoniker": "TrainerView\\Components\\Pages\\TrainerView.razor.css",
-              "ToolTip": "C:\\Users\\Makos Laptop\\Desktop\\Dante\\TrainerView\\TrainerView\\Components\\Pages\\TrainerView.razor.css",
-              "RelativeToolTip": "TrainerView\\Components\\Pages\\TrainerView.razor.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-03-02T21:41:05.009Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TrainerView.razor",
-              "DocumentMoniker": "C:\\Users\\Makos Laptop\\Desktop\\Dante\\TrainerView\\TrainerView\\Components\\Pages\\TrainerView.razor",
-              "RelativeDocumentMoniker": "TrainerView\\Components\\Pages\\TrainerView.razor",
-              "ToolTip": "C:\\Users\\Makos Laptop\\Desktop\\Dante\\TrainerView\\TrainerView\\Components\\Pages\\TrainerView.razor",
-              "RelativeToolTip": "TrainerView\\Components\\Pages\\TrainerView.razor",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAAA4AAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-02T21:03:48.488Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Trainer.cs",
-              "DocumentMoniker": "C:\\Users\\Makos Laptop\\Desktop\\Dante\\TrainerView\\TrainerView\\Model\\Trainer.cs",
-              "RelativeDocumentMoniker": "TrainerView\\Model\\Trainer.cs",
-              "ToolTip": "C:\\Users\\Makos Laptop\\Desktop\\Dante\\TrainerView\\TrainerView\\Model\\Trainer.cs",
-              "RelativeToolTip": "TrainerView\\Model\\Trainer.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAA7wA8AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-02T19:15:48.38Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApiClientService.cs",
-              "DocumentMoniker": "C:\\Users\\Makos Laptop\\Desktop\\Dante\\TrainerView\\TrainerView\\Services\\ApiClientService.cs",
-              "RelativeDocumentMoniker": "TrainerView\\Services\\ApiClientService.cs",
-              "ToolTip": "C:\\Users\\Makos Laptop\\Desktop\\Dante\\TrainerView\\TrainerView\\Services\\ApiClientService.cs",
-              "RelativeToolTip": "TrainerView\\Services\\ApiClientService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-01T19:15:36.225Z",
               "EditorCaption": ""
             }
           ]

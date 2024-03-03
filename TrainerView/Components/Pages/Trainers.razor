@@ -1,4 +1,4 @@
-﻿@page "/trainerview"
+﻿@page "/trainers"
 @using global::TrainerView.Model
 @using global::TrainerView.Services
 @inject IHttpClientFactory factory
@@ -27,7 +27,7 @@ else
                 @foreach (var trainer in currentTrainers)
                 {
                     <tr>
-                        <td scope="row">@trainer.Id </td>
+                        <td scope="row"> <a href="/trainer/@trainer.Id"> @trainer.Id </a>  </td>
                         <td>
 
                             <ul>

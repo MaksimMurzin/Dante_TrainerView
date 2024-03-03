@@ -1,0 +1,13 @@
+﻿@page "/trainer/{id}"
+
+<PageTitle>Trainers</PageTitle>
+
+<h3>Trainer Details</h3>
+
+<div>You've supplied @Id</div>
+
+@code {
+    [Parameter]
+    public string Id { get; set; }
+
+}

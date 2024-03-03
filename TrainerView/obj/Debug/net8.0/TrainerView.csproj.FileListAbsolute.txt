@@ -20,7 +20,6 @@ C:\Users\Makos Laptop\Desktop\Dante\TrainerView\TrainerView\obj\Debug\net8.0\sta
 C:\Users\Makos Laptop\Desktop\Dante\TrainerView\TrainerView\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\Makos Laptop\Desktop\Dante\TrainerView\TrainerView\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
 C:\Users\Makos Laptop\Desktop\Dante\TrainerView\TrainerView\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
-C:\Users\Makos Laptop\Desktop\Dante\TrainerView\TrainerView\obj\Debug\net8.0\scopedcss\Components\Pages\TrainerView.razor.rz.scp.css
 C:\Users\Makos Laptop\Desktop\Dante\TrainerView\TrainerView\obj\Debug\net8.0\scopedcss\bundle\TrainerView.styles.css
 C:\Users\Makos Laptop\Desktop\Dante\TrainerView\TrainerView\obj\Debug\net8.0\scopedcss\projectbundle\TrainerView.bundle.scp.css
 C:\Users\Makos Laptop\Desktop\Dante\TrainerView\TrainerView\obj\Debug\net8.0\TrainerView.dll
@@ -28,3 +27,5 @@ C:\Users\Makos Laptop\Desktop\Dante\TrainerView\TrainerView\obj\Debug\net8.0\ref
 C:\Users\Makos Laptop\Desktop\Dante\TrainerView\TrainerView\obj\Debug\net8.0\TrainerView.pdb
 C:\Users\Makos Laptop\Desktop\Dante\TrainerView\TrainerView\obj\Debug\net8.0\TrainerView.genruntimeconfig.cache
 C:\Users\Makos Laptop\Desktop\Dante\TrainerView\TrainerView\obj\Debug\net8.0\ref\TrainerView.dll
+C:\Users\Makos Laptop\Desktop\Dante\TrainerView\TrainerView\obj\Debug\net8.0\TrainerView.sourcelink.json
+C:\Users\Makos Laptop\Desktop\Dante\TrainerView\TrainerView\obj\Debug\net8.0\scopedcss\Components\Pages\Trainers.razor.rz.scp.css
