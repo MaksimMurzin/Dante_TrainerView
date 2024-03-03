@@ -1,4 +1,6 @@
+using Blazored.LocalStorage;
 using TrainerView.Components;
+using TrainerView.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -6,6 +8,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 builder.Services.AddHttpClient();
+builder.Services.AddSingleton<IApiClientService, ApiClientService>();
+builder.Services.AddSingleton<IClientApiPollingService, ClientApiPollingService>();
 
 
 var app = builder.Build();
