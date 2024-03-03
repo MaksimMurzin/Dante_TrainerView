@@ -1,0 +1,23 @@
+# Blazor / Visual Studio specific
+.vscode/
+.vs/
+bin/
+obj/
+publish/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# NuGet
+*.nuget.props
+*.paket.props
+*.paket.targets
+paket-files/
