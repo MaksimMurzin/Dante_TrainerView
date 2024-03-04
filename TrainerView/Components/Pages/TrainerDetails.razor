@@ -1,13 +1,71 @@
-﻿@page "/trainer/{id}"
+﻿@page "/trainer/{id:int}"
+@using System.Globalization
+@inject IClientApiPollingService _service
+@inject IApiClientService apiClientServie
 
 <PageTitle>Trainers</PageTitle>
 
 <h3>Trainer Details</h3>
 
-<div>You've supplied @Id</div>
+@if (trainer is null)
+{
+    <div>
+        <h4>No Trainer found with id: @Id</h4>
+    </div>
+}
+else
+{
+    <div class="trainer-container">
+        <div>
+            <h4>Trainer Information</h4>
+            <ul>
+                <li>Trainer Id: @trainer.Id</li>
+                <li>Start Date: @trainer.StartDate.ToString("dd/M/yyyy", CultureInfo.InvariantCulture)</li>
+                <li>End Date: @trainer.EndDate.ToString("dd/M/yyyy", CultureInfo.InvariantCulture)</li>
+            </ul>
+        </div>
+
+        <div>
+            <h4>Course Information</h4>
+            <div>
+                <ul>
+                    <li>Course Id: @trainer.Course.Id</li>
+                    <li>Course Name: @trainer.Course.Name</li>
+                    <li>Course Reference: @trainer.Course.Reference</li>
+                </ul>
+              
+            </div>
+
+        </div>
+        <div>
+            <h4>Status Information</h4>
+            <ul>
+                <li> Status Id: @trainer.Course.Id</li>
+                <li> Status Name: @trainer.Course.Name</li>
+            </ul>
+        </div>
+
+    </div>
+}
 
 @code {
     [Parameter]
-    public string Id { get; set; }
+    public int Id { get; set; }
+    private List<Trainer> trainers;
+    private Trainer trainer;
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        _service = new ClientApiPollingService(apiClientServie);
+        trainers = await _service.GetTrainers();
+        trainer = GetTrainer();
+    }
+
+    private Trainer GetTrainer()
+    {
+        var trainer = trainers.FirstOrDefault(t => t.Id == this.Id);
+        return trainer;
+    }
 
 }
