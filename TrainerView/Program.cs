@@ -1,4 +1,3 @@
-using Blazored.LocalStorage;
 using TrainerView.Components;
 using TrainerView.Services;
 
