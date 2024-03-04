@@ -1,5 +1,4 @@
-﻿using Blazored.LocalStorage;
-using Microsoft.Extensions.Caching.Memory;
+﻿using Microsoft.Extensions.Caching.Memory;
 using TrainerView.Model;
 
 namespace TrainerView.Services
