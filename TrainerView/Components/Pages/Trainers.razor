@@ -1,6 +1,8 @@
 ﻿@page "/trainers"
 
 @inject IApiClientService apiClientServie
+@inject IClientApiPollingService _service
+
 
 
 <PageTitle>Trainers</PageTitle>
@@ -52,9 +54,7 @@ else
 
 @code {
     private List<Trainer> trainers;
-    private ClientApiPollingService _service;
     private List<Trainer> currentTrainers;
-
 
     protected override async Task OnInitializedAsync()
     {
@@ -66,5 +66,4 @@ else
             currentTrainers = trainers;
         }
     }
-
 }
